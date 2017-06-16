@@ -13,8 +13,8 @@ import { SliderComponent } from './slider/slider.component';
   declarations: [
     AppComponent,
     EffectsComponent,
-    PhotoesComponent
-    // SliderComponent
+    PhotoesComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule
