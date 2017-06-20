@@ -20,16 +20,16 @@ export class PhotoesComponent implements OnInit {
     var canvas = <HTMLCanvasElement>document.getElementById('viewport');
     var context = canvas.getContext('2d');
 
-    make_base();
+    makeBase();
 
-    function make_base()
+    function makeBase()
       {
         var base_image = new Image();
         base_image.src = '/assets/ashvini.jpg';
         base_image.onload = function(){
           context.drawImage(base_image, 5, 5, 100, 100);
         }
-      }
+      } 
 
   }
 
